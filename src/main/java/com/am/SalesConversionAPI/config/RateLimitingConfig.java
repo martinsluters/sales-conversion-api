@@ -14,7 +14,7 @@ import java.time.Duration;
  * The rate limit is set to 10 requests per minute for demoing purposes.
  * In real live this should be set to a more reasonable value.
  *
- * @TODO Params should be configurable and generally this should be implemented through Redis or similar
+ * @TODO Params should be configurable and generally this should be implemented through Redis or similar, also Postgres works just fine.
  */
 @Configuration
 public class RateLimitingConfig {

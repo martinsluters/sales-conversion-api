@@ -40,7 +40,7 @@ public class MetricsService {
     /**
      * Get metrics for a given date range, omit range to get all time metrics.
      *
-     * Response is cached for 1 minute. Caching done with simple Caffeine cache and not Redis etc.
+     * Response is cached for 1 minute. Caching done with simple Caffeine cache and not Redis etc, also Postgres works just fine.
      *
      * @param startDate Start date
      * @param endDate End date
