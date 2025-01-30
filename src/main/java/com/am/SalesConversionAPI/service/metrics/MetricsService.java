@@ -102,7 +102,7 @@ public class MetricsService {
         // Calculate conversion rate
         return (
                 BigDecimal.valueOf(sessionCountReachedEndAction)
-                .divide(BigDecimal.valueOf(sessionWhereAction), 2, RoundingMode.HALF_UP )
+                .divide(BigDecimal.valueOf(sessionWhereAction), 10, RoundingMode.HALF_UP )
                 )
                 .multiply(BigDecimal.valueOf(100))
                 .setScale(2, RoundingMode.HALF_UP);
